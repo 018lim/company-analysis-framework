@@ -1,6 +1,7 @@
 """투자프레임·브리핑 HTML -> GitHub용 마크다운
-사용법: python html2gh.py <HTML 파일> <기업명_마크다운 폴더>
-결과: <폴더>/<파일이름>.md, <폴더>/charts/<파일이름>/NN.svg, <폴더>/data/<파일이름>.json
+사용법: python html2gh.py <HTML 파일> <저장소의 기업 폴더> <영문 기업명>
+결과: <폴더>/<영문이름>-<framework|briefing>-YYYYMMDD.md, <폴더>/charts/YYYYMMDD/<framework|briefing>-NN.svg,
+      <폴더>/data/<영문이름>-<framework|briefing>-YYYYMMDD.json
 (README.md 목록 갱신은 별도로 한다)"""
 import json, re, sys, copy
 from pathlib import Path
@@ -8,8 +9,13 @@ from bs4 import BeautifulSoup, NavigableString, Tag
 from markdownify import markdownify as mdify
 
 src, outdir = Path(sys.argv[1]), Path(sys.argv[2])
-stem = src.stem
-(outdir / "charts" / stem).mkdir(parents=True, exist_ok=True)
+import datetime as _dt
+_hs = src.stem
+_date = re.search(r"(\d{8})", _hs).group(1)
+_kind = "briefing" if ("브리핑" in _hs or "briefing" in _hs) else "framework"
+_slug = sys.argv[3] if len(sys.argv) > 3 else re.sub(r"[-_]?(framework|briefing)[-_]?\d{8}$", "", _hs)
+stem = f"{_slug}-{_kind}-{_date}"   # 영문 출력 이름
+(outdir / "charts" / _date).mkdir(parents=True, exist_ok=True)
 (outdir / "data").mkdir(parents=True, exist_ok=True)
 soup = BeautifulSoup(src.read_text(encoding="utf-8"), "lxml")
 main = soup.find("main")
@@ -45,7 +51,7 @@ def save_svg(svg, alt):
     out = (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{" ".join(vb)}" width="{w}" height="{h}">'
            f'<style>{SVG_CSS}</style><rect x="{vb[0]}" y="{vb[1]}" width="{w}" height="{h}" fill="#ffffff"/>'
            f'{body}</svg>')
-    name = f"charts/{stem}/{n_svg:02d}.svg"
+    name = f"charts/{_date}/{_kind}-{n_svg:02d}.svg"
     (outdir / name).write_text(out, encoding="utf-8")
     alt = re.sub(r"[\[\]]", "", alt or f"그림 {n_svg}")
     return f"![{alt}]({name})"
