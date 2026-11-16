@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 200" width="950" height="200"><style>.grid{stroke:#e2e0d8;stroke-width:1}.zero{stroke:#8a8984;stroke-width:1}.base{stroke:#52514e;stroke-dasharray:5 4;stroke-width:1.2}.ax{fill:#52514e;font-size:11px}.dl{fill:#0b0b0b;font-size:11px;font-weight:600}text{font-family:-apple-system,'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif}</style><rect x="0" y="0" width="950" height="200" fill="#ffffff"/><defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs><g fill="#0b0b0b" font-size="12">
+<rect fill="#fcfcfb" height="40" rx="6" stroke="#2a78d6" width="200" x="6" y="10"></rect><text x="16" y="35">D4 끝단 수요·D1 삼성 물량</text>
+<rect fill="#fcfcfb" height="40" rx="6" stroke="#2a78d6" width="200" x="6" y="80"></rect><text x="16" y="105">D2 장비 생산능력·믹스</text>
+<rect fill="#fcfcfb" height="40" rx="6" stroke="#2a78d6" width="200" x="6" y="150"></rect><text x="16" y="175">D3 선투자 구조(고정비)</text>
+<rect fill="#fcfcfb" height="40" rx="6" stroke="#e2e0d8" width="160" x="290" y="45"></rect><text x="300" y="70">가동률</text>
+<rect fill="#fcfcfb" height="40" rx="6" stroke="#e2e0d8" width="160" x="290" y="115"></rect><text x="300" y="140">생산능력(원)</text>
+<rect fill="#fcfcfb" height="40" rx="6" stroke="#e2e0d8" width="160" x="520" y="80"></rect><text x="530" y="105">매출 = 능력 × 가동률</text>
+<rect fill="#fcfcfb" height="40" rx="6" stroke="#e2e0d8" width="150" x="740" y="20"></rect><text x="750" y="45">영업이익(레버리지 8배)</text>
+<rect fill="#fcfcfb" height="40" rx="6" stroke="#e2e0d8" width="150" x="740" y="80"></rect><text x="750" y="105">ROIC·ROE</text>
+<rect fill="#fcfcfb" height="40" rx="6" stroke="#e2e0d8" width="150" x="740" y="140"></rect><text x="750" y="165">투하자본·감가상각</text>
+<g fill="none" marker-end="url(#ar)" stroke="#52514e"><path d="M206,30 L288,62"></path><path d="M206,100 L288,132"></path><path d="M450,65 L518,95"></path><path d="M450,135 L518,105"></path><path d="M680,95 L738,42"></path><path d="M890,60 L890,78"></path><path d="M206,170 L738,160"></path><path d="M815,140 L815,122"></path></g>
+</g></svg>
