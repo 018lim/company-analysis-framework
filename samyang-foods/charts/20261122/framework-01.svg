@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1050 400" width="1050" height="400"><style>.grid{stroke:#e2e0d8;stroke-width:1}.zero{stroke:#8a8984;stroke-width:1}.base{stroke:#52514e;stroke-dasharray:5 4;stroke-width:1.2}.ax{fill:#52514e;font-size:11px}.dl{fill:#0b0b0b;font-size:11px;font-weight:600}text{font-family:-apple-system,'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif}</style><rect x="0" y="0" width="1050" height="400" fill="#ffffff"/>
+<defs><marker id="ar" markerheight="7" markerwidth="7" orient="auto" refx="9" refy="5" viewbox="0 0 10 10"><path d="M0,0 L10,5 L0,10 z" fill="#2f6db5"></path></marker>
+<marker id="ag" markerheight="7" markerwidth="7" orient="auto" refx="9" refy="5" viewbox="0 0 10 10"><path d="M0,0 L10,5 L0,10 z" fill="#c8453d"></path></marker></defs>
+<rect fill="#eef4fb" height="190" rx="10" stroke="#2f6db5" width="200" x="8" y="30"></rect>
+<text font-size="14" font-weight="bold" text-anchor="middle" x="108" y="52">끝단 구매자 (돈의 원천)</text>
+<text font-size="11.5" x="18" y="76">· 미국 가계 (매출 27%)</text><text font-size="11.5" x="18" y="96">· 중국 가계 (25%)</text>
+<text font-size="11.5" x="18" y="116">· 유럽 가계 (13%)</text><text font-size="11.5" x="18" y="136">· 한국·동남아·일본 등</text>
+<text fill="#555" font-size="10.5" x="18" y="160">10~20대 중심, 1봉 1~2달러의</text><text fill="#555" font-size="10.5" x="18" y="176">'작은 사치'(매운맛 챌린지)</text>
+<text fill="#555" font-size="10.5" x="18" y="202">월마트 5입 6.88→7.84달러(+14%)</text>
+<rect fill="#f6f6f6" height="190" rx="10" stroke="#888" width="200" x="258" y="30"></rect>
+<text font-size="14" font-weight="bold" text-anchor="middle" x="358" y="52">유통사 (리테일러)</text>
+<text font-size="11.5" x="268" y="78">· 美 월마트·코스트코·크로거</text><text font-size="11.5" x="268" y="98">  등 메인스트림 대형마트</text>
+<text font-size="11.5" x="268" y="120">· 中 대리상·온라인(티몰·더우인)</text><text font-size="11.5" x="268" y="142">· 유럽 도매상·체인</text>
+<text fill="#555" font-size="10.5" x="268" y="166">진열·판촉 장려금을 받고</text><text fill="#555" font-size="10.5" x="268" y="182">소비자가에 마진을 얹음</text>
+<text fill="#555" font-size="10.5" x="268" y="204">(마진율: 확인 안 됨)</text>
+<rect fill="#fff4ea" height="190" rx="10" stroke="#e07b28" width="210" x="508" y="30"></rect>
+<text font-size="14" font-weight="bold" text-anchor="middle" x="613" y="52">삼양 해외 판매법인</text>
+<text font-size="11.5" x="518" y="78">· 미국법인 3Q26 2,156억(27%)</text><text font-size="11.5" x="518" y="98">· 중국법인 2,133억(27%)</text>
+<text font-size="11.5" x="518" y="118">· 유럽법인 980억(12%)</text><text font-size="11.5" x="518" y="138">· 일본·인니 161억</text>
+<text fill="#555" font-size="10.5" x="518" y="162">본사에서 수입해 현지 유통사에 판매</text><text fill="#555" font-size="10.5" x="518" y="178">→ 수입상 마진을 연결로 흡수</text>
+<text fill="#555" font-size="10.5" x="518" y="204">美 관세 15%(2025.8~)는 여기서 부담</text>
+<rect fill="#eaf6ee" height="190" rx="10" stroke="#3a9a5b" stroke-width="2" width="224" x="768" y="30"></rect>
+<text font-size="14" font-weight="bold" text-anchor="middle" x="880" y="52">삼양식품 본사(생산)</text>
+<text font-size="11.5" x="778" y="76">· 원주·익산·밀양 3개 공장</text><text font-size="11.5" x="778" y="96">· 연 28억식 생산능력(2026)</text>
+<text font-size="11.5" x="778" y="116">· 가동률 92~101%</text><text font-size="11.5" x="778" y="136">· 직수출·내수 2,489억(3Q26)</text>
+<text fill="#555" font-size="10.5" x="778" y="160">연결 매출총이익률 45.8%</text><text fill="#555" font-size="10.5" x="778" y="176">영업이익률 23.6% (TTM)</text>
+<text fill="#555" font-size="10.5" x="778" y="204">→ 매출 TTM 2조 9,142억</text>
+<line marker-end="url(#ar)" stroke="#2f6db5" stroke-width="2" x1="208" x2="258" y1="245" y2="245"></line>
+<line marker-end="url(#ar)" stroke="#2f6db5" stroke-width="2" x1="458" x2="508" y1="245" y2="245"></line>
+<line marker-end="url(#ar)" stroke="#2f6db5" stroke-width="2" x1="718" x2="768" y1="245" y2="245"></line>
+<text fill="#2f6db5" font-size="10.5" x="210" y="265">소비자가 지불</text><text fill="#2f6db5" font-size="10.5" x="460" y="265">도매가(30~60일 외상)</text><text fill="#2f6db5" font-size="10.5" x="720" y="265">수출가(관계사)</text>
+<rect fill="#fbecec" height="100" rx="10" stroke="#c8453d" width="484" x="508" y="290"></rect>
+<text font-size="14" font-weight="bold" text-anchor="middle" x="750" y="312">공급사 (본사가 돈을 내는 곳)</text>
+<text font-size="11.5" x="518" y="334">· 원재료 TTM 약 1조 1,200억(매출의 38%): 맥분·팜유(계열 삼양제분), 감자전분(KMC·Emsland)</text>
+<text font-size="11.5" x="518" y="354">· 수출제비·운반비 2,294억(8%), 포장(계열 삼양스퀘어팩), 물류(삼양로지스틱스)</text>
+<text font-size="11.5" x="518" y="376">· 인건비 3,484억(12%), 광고선전비 1,230억(4%) — 숫자는 최근 4분기, 성격별 분류 주석</text>
+<line marker-end="url(#ag)" stroke="#c8453d" stroke-width="2" x1="880" x2="880" y1="220" y2="290"></line>
+<rect fill="#f4f7fb" height="100" rx="10" stroke="#2f6db5" stroke-dasharray="4 3" width="450" x="8" y="290"></rect>
+<text font-size="13" font-weight="bold" x="18" y="312">돈이 흐르는 방식의 특징</text>
+<text font-size="11.5" x="18" y="334">① 물건이 모자란다(가동률 ~100%) → 유통사보다 삼양이 협상 우위</text>
+<text font-size="11.5" x="18" y="354">② 해외 법인 직판 비중↑ → 체인 마진을 더 많이 가져감</text>
+<text font-size="11.5" x="18" y="376">③ 원가는 원화, 매출은 달러·위안·유로 → 환율이 마진을 흔듦</text>
+</svg>
