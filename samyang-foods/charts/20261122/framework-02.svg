@@ -1,5 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 746 219.295904" width="746" height="219.295904"><style>.grid{stroke:#e2e0d8;stroke-width:1}.zero{stroke:#8a8984;stroke-width:1}.base{stroke:#52514e;stroke-dasharray:5 4;stroke-width:1.2}.ax{fill:#52514e;font-size:11px}.dl{fill:#0b0b0b;font-size:11px;font-weight:600}text{font-family:-apple-system,'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif}</style><rect x="0" y="0" width="746" height="219.295904" fill="#ffffff"/>
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 746 219.295904" width="746" height="219.295904"><style>.grid{stroke:#e2e0d8;stroke-width:1}.zero{stroke:#8a8984;stroke-width:1}.base{stroke:#52514e;stroke-dasharray:5 4;stroke-width:1.2}.ax{fill:#52514e;font-size:11px}.dl{fill:#0b0b0b;font-size:11px;font-weight:600}text{font-family:-apple-system,'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif}</style><rect x="0" y="0" width="746" height="219.295904" fill="#ffffff"/>
+<metadata>
+<rdf:rdf xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<cc:work>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+<dc:date>2026-11-22T05:58:01.544921</dc:date>
+<dc:format>image/svg+xml</dc:format>
+<dc:creator>
+<cc:agent>
+<dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+</cc:agent>
+</dc:creator>
+</cc:work>
+</rdf:rdf>
+</metadata>
 <defs>
 <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
 </defs>
@@ -1056,14 +1069,14 @@ L 513.881324 31.845
 </g>
 </g>
 <defs>
-<clipPath id="p9a615fc694">
+<clippath id="p9a615fc694">
 <rect height="166.32" width="196.941176" x="19.4725" y="21.12"></rect>
-</clipPath>
-<clipPath id="p808e8ef8ff">
+</clippath>
+<clippath id="p808e8ef8ff">
 <rect height="166.32" width="196.941176" x="255.801912" y="21.12"></rect>
-</clipPath>
-<clipPath id="p9518e2153c">
+</clippath>
+<clippath id="p9518e2153c">
 <rect height="166.32" width="196.941176" x="492.131324" y="21.12"></rect>
-</clipPath>
+</clippath>
 </defs>
 </svg>
